@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+    <node launch-prefix="" pkg="rosmrsmap" type="register_map" name="register_map" respawn="false" output="screen" >
+    </node>
+
+<!-- valgrind -tool=callgrind -->
+<!-- xterm -e cgdb -args -->
+
+</launch>

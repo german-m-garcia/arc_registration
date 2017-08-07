@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+
+    <node launch-prefix="" pkg="arc_registration" type="arc_registration_node" name="arcRegistrationNode" respawn="false" output="screen" >
+        <param name="registration_objects/object_1" type="string" value="/bc5/objects/26_7_bis/yellow_windex" />
+    </node>
+
+<node pkg="rviz" name="rviz" type="rviz" args="-d $(find arc_registration)/launch/registration.rviz" output="screen">
+</node>
+</launch>

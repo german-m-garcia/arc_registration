@@ -1,0 +1,6 @@
+string objectName
+string cameraFrame
+geometry_msgs/Pose predictedPose
+sensor_msgs/PointCloud2 dataCloud
+bool onlyPrediction
+---
